@@ -1,0 +1,22 @@
+
+.eb-garamond {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  /* font-weight: 400; */
+  font-style: normal;
+}
+
+p {
+  line-height: 165%;
+  margin-bottom: 0px;
+}
+
+li {
+  margin-top: 5pt;
+}
+
+a {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
