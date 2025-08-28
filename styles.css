@@ -1,4 +1,3 @@
-
 .eb-garamond {
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
@@ -19,4 +18,40 @@ a {
   color: black;
   background-color: transparent;
   text-decoration: underline;
+}
+
+/* Mobile */
+.page-top-spacing {
+  margin-top: 100px;
+}
+
+.page-center-spacing {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Tablet */
+@media (min-width: 48rem) {
+  .page-top-spacing {
+    margin-top: 150px;
+  }
+
+  .page-center-spacing {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+}
+
+/* Desktop */
+@media (min-width: 64rem) {
+  .page-top-spacing {
+    margin-top: 150px;
+  }
+
+  .page-center-spacing {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+
 }
