@@ -5,6 +5,12 @@
   font-style: normal;
 }
 
+body {
+  margin: 0px;
+  font-family: 'EB Garamond';
+  background-color: #f8fbf8;
+}
+
 p {
   line-height: 165%;
   margin-bottom: 0px;
